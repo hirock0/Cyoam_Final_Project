@@ -1,0 +1,22 @@
+
+
+.banner{
+    clip-path:polygon(70px 0, 100% 0, 100% 89.49%, 88.09% 100%, 0% 100%, 0 70px) ;
+
+}
+.bannerImg_2{
+    clip-path:polygon(70px 0, 100% 0, 100% 89.49%, 88.09% 100%, 0% 100%, 0 70px) ;
+}
+
+@media (max-width:1400px) {
+
+
+}
+
+@media (max-width:640px) {
+    .banner{
+
+        clip-path:polygon(12.5% 0, 100% 0, 100% 85.71%, 85.71% 100%, 0% 100%, 0 12.5%) ;
+
+    }
+}
