@@ -1,5 +1,7 @@
+import Acheive_section from "@/components/home/acheive_section/acheive_section";
 import Banner from "@/components/home/banner/banner";
 import Popular_service from "@/components/home/popular_service/popular_service";
+import PopularProjects from "@/components/home/projects_section/page";
 
 const Home = () => {
   return (
@@ -21,6 +23,15 @@ const Home = () => {
           {/* popular_service_section_start  */}
           <Popular_service />
           {/* popular_service_section_end  */}
+
+          {/* Popular_projects_start */}
+          <PopularProjects/>
+          {/* Popular_projects_end */}
+          
+          {/* Acheive_SECTION_START  */}
+
+          <Acheive_section/>
+          {/* Acheive Section end */}
         </div>
       </div>
     </main>

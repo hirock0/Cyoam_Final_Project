@@ -46,14 +46,16 @@ const Banner = () => {
       }}
     >
       <div className=" bottom_left_corner_cut relative pt-[40px] max-sm:pt-0  bg-[#f2f2f2f3]  h-full w-full">
-        <div
-          className={` ${
-            scrollFlag
-              ? "fixed top-0 left-0 z-50 flex justify-center w-full transition-all"
-              : "max-[1400px]:mx-[8px] mx-[94px]"
-          }   `}
-        >
-          <NavBar />
+        <div className="h-[120px]">
+          <div
+            className={` ${
+              scrollFlag
+                ? "fixed top-0 left-0 z-50 flex justify-center w-full transition-all"
+                : "max-[1400px]:mx-[8px] mx-[94px]"
+            }   `}
+          >
+            <NavBar />
+          </div>
         </div>
 
         {/* main_start */}
@@ -220,13 +222,13 @@ const Banner = () => {
                 >
                   <Image
                     src={
-                      "https://s3-alpha-sig.figma.com/img/44ff/619a/d09df4652d26357cc14f34ed28dc46c9?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Xaq2MTXrrIr9HrByhaEtfu2gORn1CwvRziZwNzKKKzZJPf2wRAT89AHuYfjofg1KBObUG7CU1qzaDA5g2xvvc7xBnsmtcfjVXJ9q9vFnmqpxgKbXge2GcIfGN54f6Nkrc4qU9MOOrqkK0AVfWT1t5a7PY-llpjeHs1MBHd2yK6bKaxfr4Oa9V3kTnimQRTpKmErwO2Dg8~Yu4TAR-oAvwT-opTz8kkjwEvko5QgF53rRGRGu~LMg90Q8HydrP~be3y4WV9MXoZ58R6yjnlmBwXL0t03n8~OgvshEll~L~eRxva1lPxTt~-74EBaIgG9sIa-wW~IylSTzMhoOi9OPWw__"
+                      "https://i.ibb.co.com/4R95QvZg/banner-image.jpg"
                     }
                     alt="img"
                     width={5000}
                     height={5000}
                     priority
-                    className="  h-[666px] max-[1400px]:w-full  w-[588px] object-cover grayscale"
+                    className=" h-[666px] max-[1400px]:w-full  w-[588px] object-cover grayscale"
                   />
                 </div>
               </div>
