@@ -2,6 +2,7 @@ import Acheive_section from "@/components/home/acheive_section/acheive_section";
 import Banner from "@/components/home/banner/banner";
 import Popular_service from "@/components/home/popular_service/popular_service";
 import PopularProjects from "@/components/home/projects_section/page";
+import Ideas_section from "@/components/ideas_section/ideas_section";
 
 const Home = () => {
   return (
@@ -25,13 +26,17 @@ const Home = () => {
           {/* popular_service_section_end  */}
 
           {/* Popular_projects_start */}
-          <PopularProjects/>
+          <PopularProjects />
           {/* Popular_projects_end */}
-          
+
           {/* Acheive_SECTION_START  */}
 
-          <Acheive_section/>
+          <Acheive_section />
           {/* Acheive Section end */}
+          {/* Ideas_section_start */}
+
+          <Ideas_section />
+          {/* Ideas_section_end */}
         </div>
       </div>
     </main>

@@ -45,7 +45,7 @@ const Banner = () => {
         backgroundImage: `url('https://i.ibb.co.com/hxfxcTKD/banne-background.png')`,
       }}
     >
-      <div className=" bottom_left_corner_cut relative pt-[40px] max-sm:pt-0  bg-[#f2f2f2f3]  h-full w-full">
+      <div className=" pt-[40px] max-sm:pt-0  bg-[#f2f2f2f3]  h-full w-full">
         <div className="h-[120px]">
           <div
             className={` ${

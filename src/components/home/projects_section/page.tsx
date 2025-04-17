@@ -59,7 +59,7 @@ export default function PopularProjects() {
         style={{
           background: "url(https://i.ibb.co.com/F4XSMWrS/project-imaf.png)",
         }}
-        className=" top_right_cut relative"
+        className=""
       >
         <div className="bg-[#f6f6f6ec] ">
           <div className="h-full px-[120px] max-[1400px]:px-[20px] py-[140px] max-sm:pt-[48px] max-sm:pb-[80px]  mx-auto ">
