@@ -51,7 +51,7 @@ const Banner = () => {
             className={` ${
               scrollFlag
                 ? "fixed top-0 left-0 z-50 flex justify-center w-full transition-all"
-                : "max-[1400px]:mx-[8px] mx-[94px]"
+                : " mx-[94px] max-[1400px]:mx-[8px] flex justify-center items-center "
             }   `}
           >
             <NavBar />
