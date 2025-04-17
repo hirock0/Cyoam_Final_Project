@@ -1,0 +1,10 @@
+.projectCard{
+    clip-path:polygon(36px 0%, 100% 0%, 100% 278px, 88.53% 100%, 0% 100%, 0% 36px) ;
+
+}
+@media (max-width:640px) {
+    .projectCard{
+        clip-path:polygon(36px 0%, 100% 0%, 100% 389px, 88.40% 100%, 0% 100%, 0% 36px) ;
+    
+    }
+}

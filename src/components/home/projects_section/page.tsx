@@ -62,15 +62,16 @@ export default function PopularProjects() {
         className=" top_right_cut relative"
       >
         <div className="bg-[#f6f6f6ec] ">
-          <div className="h-full px-[120px] max-[1400px]:px-[20px] py-[140px]  mx-auto ">
-            <div className=" max-md:hidden ">
+          <div className="h-full px-[120px] max-[1400px]:px-[20px] py-[140px] max-sm:pt-[48px] max-sm:pb-[80px]  mx-auto ">
+            <div className=" max-sm:hidden   ">
               <div className="  lg:flex max-[1400px]:flex-col gap-5">
-                <div className="  grid grid-cols-2  gap-5">
+                <div className=" grid grid-cols-2 max-[1400px]:hidden gap-5 ">
                   {projects.map((item, index) => (
                     <ProjectCard key={index} item={item} />
                   ))}
                 </div>
-                <div className="  w-3/6 max-md:w-full max-md:text-center">
+
+                <div className="  w-3/6  max-[1400px]:w-full ">
                   <button className=" max-lg:mt-10 max-md:mt-5 cursor-pointer flex border border-slate-400 items-center px-5 max-sm:px-3">
                     <div className=" ">
                       <LuDot />
@@ -94,7 +95,7 @@ export default function PopularProjects() {
                 </div>
               </div>
 
-              <div className="grid  grid-cols-4 max-[1400px]:grid-cols-2 max-md:grid-cols-1 gap-5">
+              <div className=" gap-5 flex max-[1400px]:mt-[52px]">
                 <div
                   className=" max-[1400px]:hidden  h-[314px] w-[282px]  overflow-hidden bg-[#0C5DB6] text-white flex justify-center items-center"
                   style={{
@@ -106,14 +107,44 @@ export default function PopularProjects() {
                     <FiArrowUpRight size={100} />
                   </div>
                 </div>
-                {projects2.map((item, index) => (
-                  <ProjectCard key={index} item={item} />
-                ))}
+
+                {/* ------------------------------------------------------- */}
+                <div className=" flex flex-col gap-5 ">
+                  <div className="hidden max-[1400px]:block max-lg:hidden">
+                    <div className=" flex gap-5 items-center ">
+                      <div
+                        className="   h-[314px] w-5/12 overflow-hidden bg-[#0C5DB6] text-white flex justify-center items-center"
+                        style={{
+                          clipPath:
+                            "polygon(36px 0%, 100% 0%, 100% 278px, 88.53% 100%, 0% 100%, 0% 36px)",
+                        }}
+                      >
+                        <div className="">
+                          <FiArrowUpRight size={100} />
+                        </div>
+                      </div>
+
+                      <div className="">
+                        <div className=" grid w-full justify-items-center grid-cols-2 gap-5">
+                          {projects.map((item, index) => (
+                            <ProjectCard key={index} item={item} />
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className=" grid grid-cols-3 max-lg:grid-cols-2 justify-items-center max-[1400px]:w-full gap-5 ">
+                    {projects2.map((item, index) => (
+                      <ProjectCard key={index} item={item} />
+                    ))}
+                  </div>
+                </div>
+                {/* ---------------------------------------------------------------- */}
               </div>
             </div>
 
             {/* small_section_start */}
-            <div className=" md:hidden max-md:w-full">
+            <div className=" sm:hidden max-sm:w-full">
               <button className=" cursor-pointer flex border border-slate-400 items-center px-5 max-sm:px-3">
                 <div className=" ">
                   <LuDot />
@@ -125,7 +156,7 @@ export default function PopularProjects() {
                 </div>
               </button>
               <h1
-                className={` ${babas_neue.className} mt-[24px]  mb-[24px] text-[4rem] leading-14 -tracking-[1px]  `}
+                className={` ${babas_neue.className} mt-[24px] text-[4rem] leading-[56px] -tracking-[1px]  `}
               >
                 <span className="">check our</span>
                 <br></br>
@@ -133,9 +164,9 @@ export default function PopularProjects() {
                 <br></br>Website
               </h1>
 
-              <div className=" ">
+              <div className="  mt-[32px] ">
                 {/* SliderImage */}
-                <div className=" h-[314px]">
+                <div className=" ">
                   <Swiper
                     slidesPerView={1}
                     pagination={true}
@@ -149,6 +180,8 @@ export default function PopularProjects() {
                     ))}
                   </Swiper>
                 </div>
+                {/* ----------------- */}
+
                 {/* SliderImage */}
               </div>
 

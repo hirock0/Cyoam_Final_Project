@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-
+import Style from "./projectCard.module.css"
 interface Item {
   title: string;
   descriptions: string;
@@ -14,13 +14,10 @@ const ProjectCard = ({ item }: { item: Item }) => {
       clipPath:
         "polygon(37px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 37px)",
     }}
-    className=" h-[314px] w-[282px] max-sm:w-full max-sm:h-[440px] bg-[#00AEEF]">
+    className=" h-[314px] w-[282px] max-[1400px]:w-full  max-sm:h-[440px] bg-[#00AEEF]">
       <div
-        className="  h-full overflow-hidden bg-white"
-        style={{
-          clipPath:
-            "polygon(36px 0%, 100% 0%, 100% 278px, 88.53% 100%, 0% 100%, 0% 36px)",
-        }}
+        className={`${Style.projectCard} h-full overflow-hidden bg-white`}
+
       >
         <div className=" h-full w-full ">
           <Image
