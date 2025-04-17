@@ -40,7 +40,7 @@ const Banner = () => {
 
   return (
     <div
-      className=" min-[1300px]::h-[1018px] overflow-hidden bg-[#F2F2F2]"
+      className=" min-[1400px]:h-[1018px] overflow-hidden bg-[#F2F2F2]"
       style={{
         backgroundImage: `url('https://i.ibb.co.com/hxfxcTKD/banne-background.png')`,
       }}
