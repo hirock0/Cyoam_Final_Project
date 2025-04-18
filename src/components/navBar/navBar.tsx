@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { Bebas_Neue, Roboto } from "next/font/google";
+import { RiArrowRightSLine } from "react-icons/ri";
 import Link from "next/link";
 import Style from "./navBar.module.css";
 const babas_neue = Bebas_Neue({
@@ -209,7 +210,9 @@ const NavBar = () => {
         <div className=" h-full min-[1300px]:w-[308px] w-2/6  bg-[#00AEEF] max-[1400px]:bg-[#0C5DB6] ">
           <div className=" h-full max-[1400px]:hidden  ">
             <div className="flex items-center w-full  h-[39px]">
-              <div className={` flex h-full w-full border-b border-b-cyan-400 text-white`}>
+              <div
+                className={` flex h-full w-full border-b border-b-cyan-400 text-white`}
+              >
                 <div className="  flex px-5 items-center ">
                   <FaFacebookF className=" w-[16px]  h-[16px] " />
                 </div>
@@ -287,7 +290,7 @@ const NavBar = () => {
               e.stopPropagation(), setMenuFlag(false);
             }}
           >
-            <IoMdClose size={30} />
+            <IoMdClose size={25} />
           </button>
         </div>
         {/* logo_start */}
@@ -311,33 +314,57 @@ const NavBar = () => {
         <div className=" mt-[52px]">
           <ul className={`${babas_neue.className} text-white text-[1.438rem]`}>
             <Link href={"/"}>
-              <li className=" h-[58px] flex items-center border px-5 border-l-0 border-r-0 border-t-0 ">
-                Home
+              <li className=" h-[58px] flex items-center border px-5 border-l-0 border-r-0 border-t-0  justify-between ">
+                <span>Home</span>
+
+                <span>
+                  <RiArrowRightSLine size={30} />
+                </span>
               </li>
             </Link>
             <Link href={"/"}>
-              <li className=" h-[58px] flex items-center border px-5 border-l-0 border-r-0 border-t-0 ">
-                About
+              <li className=" h-[58px] flex items-center justify-between border px-5 border-l-0 border-r-0 border-t-0  ">
+                <span>About</span>
+
+                <span>
+                  <RiArrowRightSLine size={30} />
+                </span>
               </li>
             </Link>
             <Link href={"/"}>
-              <li className=" h-[58px] flex items-center border px-5 border-l-0 border-r-0 border-t-0 ">
-                Service
+            <li className=" h-[58px] flex items-center justify-between border px-5 border-l-0 border-r-0 border-t-0  ">
+                <span>Service</span>
+
+                <span>
+                  <RiArrowRightSLine size={30} />
+                </span>
               </li>
             </Link>
             <Link href={"/"}>
-              <li className=" h-[58px] flex items-center border px-5 border-l-0 border-r-0 border-t-0 ">
-                Work
+            <li className=" h-[58px] flex items-center justify-between border px-5 border-l-0 border-r-0 border-t-0  ">
+                <span>Work</span>
+
+                <span>
+                  <RiArrowRightSLine size={30} />
+                </span>
               </li>
             </Link>
             <Link href={"/"}>
-              <li className=" h-[58px] flex items-center border px-5 border-l-0 border-r-0 border-t-0 ">
-                Contact
+            <li className=" h-[58px] flex items-center justify-between border px-5 border-l-0 border-r-0 border-t-0  ">
+                <span>Contact</span>
+
+                <span>
+                  <RiArrowRightSLine size={30} />
+                </span>
               </li>
             </Link>
             <Link href={"/"}>
-              <li className=" h-[58px] flex items-center border px-5 border-l-0 border-r-0 border-t-0 border-b-0 ">
-                Account
+            <li className=" h-[58px] flex items-center justify-between border px-5 border-l-0 border-r-0 border-t-0  ">
+                <span>Account</span>
+
+                <span>
+                  <RiArrowRightSLine size={30} />
+                </span>
               </li>
             </Link>
           </ul>
