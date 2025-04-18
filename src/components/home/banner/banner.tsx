@@ -273,7 +273,7 @@ const Banner = () => {
         </div>
         {/* main_end */}
         {/* vector */}
-        <div className=" absolute -bottom-32">
+        <div className=" max-sm:hidden absolute -bottom-32">
           <svg
             width="150"
             height="212"

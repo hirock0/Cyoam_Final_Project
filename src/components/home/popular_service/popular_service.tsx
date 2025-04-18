@@ -178,6 +178,7 @@ const Popular_service = () => {
                 "url(https://i.ibb.co.com/zhcqm3f4/popular-service.png)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
+              
             }}
             className="  h-full   bottom_right_corner "
           >
