@@ -65,7 +65,7 @@ const Banner = () => {
             <div className="  flex max-[1300px]:flex-col pt-[72px] max-md:pt-[40px] max-sm:pt-[32px] pb-[120px] max-md:pb-[100px] max-sm:pb-[80px] ">
               <div className=" w-1/2 max-[1300px]:w-full max-md:w-full">
                 <div className="">
-                  <button className=" flex items-center text-[1rem] border px-2">
+                  <button className=" flex items-center text-[1rem] border border-slate-400 px-2">
                     <span>
                       <LuDot />
                     </span>
