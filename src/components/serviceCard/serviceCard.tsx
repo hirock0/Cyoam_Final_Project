@@ -44,7 +44,7 @@ const ServiceCard = ({ item }: { item: Item }) => {
                 <span className=" text-[#00AEEF]">I</span> {item?.title}
               </h1>
 
-              <p className=" mt-[36px] mb-[44px] max-sm:mt-[24px] max-sm:mb-[28px] text-[1.125rem] leading-7">
+              <p className=" mt-[26px] mb-[44px] max-sm:mt-[24px] max-sm:mb-[28px] text-[1.125rem] leading-7">
                 {item?.descriptions}
               </p>
             </div>
