@@ -76,7 +76,7 @@ export default function PopularProjects() {
                     <div className=" ">
                       <LuDot />
                     </div>
-                    <div>Work</div>
+                    <div className=" px-5">Work</div>
 
                     <div className="">
                       <LuDot />
