@@ -1,8 +1,46 @@
-.nav{
-    clip-path: polygon(0% 0%, calc(100% - 28px) 0%, 100% calc(100% - 92px), 100% 100%, 28px 100%,  0 92px  );
+.nav {
+  clip-path: polygon(
+    0% 0%,
+    calc(100% - 28px) 0%,
+    100% calc(100% - 92px),
+    100% 100%,
+    28px 100%,
+    0 92px
+  );
 }
-@media (max-width:640px) {
-    .nav{
-        clip-path: polygon(0% 0%, calc(100% - 14px) 0%, 100% calc(100% - 58px), 100% 100%, 14px 100%,  0 58px  );
-    }  
+
+.side_Menu {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 95% 100%, 0% 100%);
+  }
+@media (max-width: 1040px) {
+  .side_Menu {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%);
+  }
+}
+
+@media (max-width: 1040px) {
+  .side_Menu {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%);
+  }
+}
+@media (max-width: 991px) {
+  .side_Menu {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 91%, 93% 100%, 0% 100%);
+  }
+}
+
+@media (max-width: 640px) {
+  .nav {
+    clip-path: polygon(
+      0% 0%,
+      calc(100% - 14px) 0%,
+      100% calc(100% - 58px),
+      100% 100%,
+      14px 100%,
+      0 58px
+    );
+  }
+  .side_Menu {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 88% 100%, 0% 100%);
+  }
 }
