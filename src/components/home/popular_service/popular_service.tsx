@@ -193,7 +193,7 @@ const Popular_service = () => {
                   Popular <span className=" text-[#00AEEF]">Services</span>
                 </h1>
 
-                <p className=" text-[1.125rem] leading-7 tracking-[0px] mb-[56px] mt-[40px] w-1/2 max-md:w-5/6 max-md:mt-0 max-md:my-[32px] ">
+                <p className=" text-[1.125rem] leading-7 tracking-[0px] mb-[56px] mt-[18px] w-1/2 max-md:w-5/6  max-md:mb-[32px] ">
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
                 </p>

@@ -48,7 +48,7 @@ const Acheive_section = () => {
                       What We <span className=" text-[#00AEEF]">Aspire To</span>
                       <br></br>Achieve
                     </h1>
-                    <p className=" w-4/6 text-[1.125rem] leading-[28px] tracking-[0px] my-[32px]   ">
+                    <p className=" w-4/6 text-[1.125rem] leading-[28px] tracking-[0px] mt-[32px]   ">
                         It is a long established fact that a reader will be
                         distracted by the readable content of a page when
                         looking at its layout.
@@ -62,7 +62,7 @@ const Acheive_section = () => {
                         Transforming Businesses{" "}
                         <span className=" text-[#00AEEF]">with Expertise</span>
                       </h1>
-                      <p className="text-[1.125rem] leading-[28px] tracking-[0px] my-[32px] w-full max-md:w-full  ">
+                      <p className="text-[1.125rem] leading-[28px] tracking-[0px]  mt-[22px] mb-[12px] w-full max-md:w-full  ">
                         It is a long established fact that a reader will be
                         distracted by the readable content of a page when
                         looking at its layout.
@@ -71,7 +71,7 @@ const Acheive_section = () => {
 
 
 
-                    <div className=" mt-[82px] max-md:flex  max-[1400px]:hidden max-lg:block max-sm:hidden max-md:justify-center">
+                    <div className=" mt-[60px] max-md:flex  max-[1400px]:hidden max-lg:block max-sm:hidden max-md:justify-center">
                       <AchievementBtns />
                     </div>
                   </div>
