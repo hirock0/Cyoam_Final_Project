@@ -48,7 +48,7 @@ const Acheive_section = () => {
                       What We <span className=" text-[#00AEEF]">Aspire To</span>
                       <br></br>Achieve
                     </h1>
-                    <p className=" w-4/6 text-[1.125rem] leading-[28px] tracking-[0px] mt-[32px]   ">
+                    <p className=" w-[55%] text-[1.125rem] leading-[28px] tracking-[0px] mt-[32px]   ">
                         It is a long established fact that a reader will be
                         distracted by the readable content of a page when
                         looking at its layout.
