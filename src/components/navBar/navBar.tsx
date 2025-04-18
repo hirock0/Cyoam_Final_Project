@@ -209,17 +209,17 @@ const NavBar = () => {
         <div className=" h-full min-[1300px]:w-[308px] w-2/6  bg-[#00AEEF] max-[1400px]:bg-[#0C5DB6] ">
           <div className=" h-full max-[1400px]:hidden  ">
             <div className="flex items-center w-full  h-[39px]">
-              <div className={` flex h-full w-full border-b text-white`}>
-                <div className="  flex px-5 border-slate-300  items-center ">
+              <div className={` flex h-full w-full border-b border-b-cyan-400 text-white`}>
+                <div className="  flex px-5 items-center ">
                   <FaFacebookF className=" w-[16px]  h-[16px] " />
                 </div>
-                <div className="  border-x  px-5 border-slate-300 flex   items-center">
+                <div className="  border-x  px-5 border-cyan-400 flex   items-center">
                   <FaLinkedinIn className="  w-[16px] h-[16px] " />
                 </div>
-                <div className="  flex border-r px-5  border-slate-300 items-center">
+                <div className="  flex border-r px-5  border-cyan-400 items-center">
                   <RiTwitterXFill className=" w-[16px] h-[16px] " />
                 </div>
-                <div className=" flex border-r px-5  border-slate-300 items-center">
+                <div className=" flex border-r px-5  border-cyan-400 items-center">
                   <FaInstagram className=" w-[16px] h-[16px] " />
                 </div>
               </div>

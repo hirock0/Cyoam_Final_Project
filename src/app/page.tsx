@@ -37,6 +37,9 @@ const Home = () => {
 
           <Ideas_section />
           {/* Ideas_section_end */}
+
+
+
         </div>
       </div>
     </main>

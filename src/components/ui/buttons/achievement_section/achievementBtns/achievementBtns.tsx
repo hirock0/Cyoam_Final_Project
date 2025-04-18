@@ -7,7 +7,11 @@ const babas_neue = Bebas_Neue({
 const AchievementBtns = () => {
   return (
     <div className=" w-full flex max-sm:flex-col gap-5 items-center">
-      <button className=" h-[120px] btn_corner_cut_left_top_right_bottom w-full overflow-hidden bg-white">
+      <button 
+        style={{
+          clipPath:"polygon(30px 0%, 100% 0%, 100% 90px, 91.30% 100%, 0% 100%, 0% 30px)"
+        }}
+      className=" h-[120px]  w-full overflow-hidden bg-white">
         <div className=" flex items-center justify-between text-start p-8 w-full h-full">
           <p
             className={`${babas_neue.className} text-black text-[2rem] text-nowrap leading-8 `}
@@ -22,7 +26,11 @@ const AchievementBtns = () => {
         </div>
       </button>
       {/* ---------------------------- */}
-      <button className=" h-[120px] w-full btn_corner_cut_left_top_right_bottom  overflow-hidden bg-[#00AEEF] text-white">
+      <button 
+        style={{
+          clipPath:"polygon(30px 0%, 100% 0%, 100% 90px, 91.30% 100%, 0% 100%, 0% 30px)"
+        }}
+      className=" h-[120px] w-full   overflow-hidden bg-[#00AEEF] text-white">
         <div className=" flex items-center justify-between text-start p-8 w-full h-full">
           <p
             className={`${babas_neue.className} text-[2rem] text-nowrap  leading-8 `}

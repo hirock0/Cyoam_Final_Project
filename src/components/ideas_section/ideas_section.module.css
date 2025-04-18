@@ -1,0 +1,29 @@
+.containerBox_cut{
+
+    clip-path: polygon(6.66% 0%, 100% 0%, 100% 79.59%, 93.33% 100%, 0% 100%, 0% 20.40%);
+
+}
+.whiteBox{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50.28px, 96% 100%, 0% 100%, 0% 0%);
+}
+
+@media (max-width:1024px) {
+    .containerBox_cut{
+
+        clip-path: polygon(5.66% 0%, 100% 0%, 100% 84.59%, 94.33% 100%, 0% 100%, 0% 15.40%);
+    
+    }
+
+    .whiteBox{
+        clip-path: none;
+    }
+}
+@media (max-width:640px) {
+    .containerBox_cut{
+
+        clip-path: polygon(6.66% 0%, 100% 0%, 100% 89.59%, 93.33% 100%, 0% 100%, 0% 10.40%);
+    
+    }
+}
+
+
